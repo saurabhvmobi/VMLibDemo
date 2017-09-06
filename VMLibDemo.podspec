@@ -15,4 +15,6 @@ s.source           = { :git => 'https://github.com/saurabhvmobi/VMLibDemo.git', 
 s.ios.deployment_target = '9.0'
 s.source_files = 'VMLibDemo/VMLib.swift'
 
+
+
 end
