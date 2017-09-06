@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-spec.name = "vmLibrary"
+spec.name = "VMLibDemo"
 spec.version = "0.0.1"
 spec.summary = "Sample framework from blog post, not for real world use."
 spec.homepage = "https://github.com/saurabhvmobi/VMLibDemo.git"
@@ -14,7 +14,7 @@ spec.source_files = "VMLibDemo/**/*.{h,swift}"
 spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 spec.dependency "vmLibrary", "~> 0.0.1"
-s.source       = { :git => "https://github.com/saurabhvmobi/VMLibDemo.git", :tag => "1.0.0" }
+s.source       = { :git => "https://github.com/saurabhvmobi/VMLibDemo.git", :tag => "0.0.1" }
 
 
 end
