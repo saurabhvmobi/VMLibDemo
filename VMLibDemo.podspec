@@ -13,6 +13,6 @@ s.author           = { 'Saurabh' => 'saurabhs@vmokshagroup.com' }
 s.source           = { :git => 'https://github.com/saurabhvmobi/VMLibDemo.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '9.0'
-s.source_files = 'VMLibDemo/CustomWebViewController.swift'
+s.source_files = 'VMLibDemo/VMLib.swift'
 
 end
