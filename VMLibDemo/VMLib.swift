@@ -12,9 +12,27 @@ import UIKit
 public class frameWorkClass{
 
 
-   // Print("frameWork Method")
+   
 
-
+    func VMLibButtonAction(viewController:UIViewController) {
+        
+        
+        let alertController = UIAlertController(title: "SDK Method", message: "Hey This is SDK", preferredStyle: .alert)
+        
+        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(defaultAction)
+        viewController .present(alertController, animated: true, completion: nil);
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
 
 
 }
