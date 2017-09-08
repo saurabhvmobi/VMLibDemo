@@ -12,7 +12,11 @@ import UIKit
 public class frameWorkClass{
 
 
-   
+    public init() {
+    
+    
+    }
+
 
     func VMLibButtonAction(viewController:UIViewController) {
         
