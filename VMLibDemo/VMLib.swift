@@ -18,14 +18,29 @@ public class frameWorkClass{
     }
 
 
-    func VMLibButtonAction(viewController:UIViewController) {
+   public func VMLibButtonAction(viewController:UIViewController) {
         
         
-        let alertController = UIAlertController(title: "SDK Method", message: "Hey This is SDK", preferredStyle: .alert)
+        let mainView = UIView()
+        mainView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        mainView.backgroundColor = UIColor.gray
+        viewController.view.addSubview(mainView)
         
-        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-        alertController.addAction(defaultAction)
-        viewController .present(alertController, animated: true, completion: nil);
+        let subView = UIView()
+        subView.frame = CGRect(x: 20, y: 150, width: mainView.frame.width-40, height: mainView.frame.height-200)
+        subView.backgroundColor = UIColor.white
+        mainView.addSubview(subView)
+        
+        
+        
+        
+        
+        let webV    = UIWebView()
+        webV.frame  = CGRect(x: 0, y: 0, width: subView.frame.width, height:subView.frame.height)
+        webV.loadRequest(NSURLRequest(url: NSURL(string: "http://d2z3o9iciufzel.cloudfront.net/1033/21")! as URL) as URLRequest)
+        //webV.delegate = self
+        subView.addSubview(webV)
+        subView.clipsToBounds = true
         
         
         

@@ -11,7 +11,6 @@
 		867D65281F5FD42600D25262 /* VMLibDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D65271F5FD42600D25262 /* VMLibDemoTests.swift */; };
 		867D652A1F5FD42600D25262 /* VMLibDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 867D651C1F5FD42500D25262 /* VMLibDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		867D65721F60090000D25262 /* VMLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D65711F60090000D25262 /* VMLib.swift */; };
-		867D65741F601A3F00D25262 /* CustomWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D65731F601A3E00D25262 /* CustomWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +31,6 @@
 		867D65271F5FD42600D25262 /* VMLibDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMLibDemoTests.swift; sourceTree = "<group>"; };
 		867D65291F5FD42600D25262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		867D65711F60090000D25262 /* VMLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMLib.swift; sourceTree = "<group>"; };
-		867D65731F601A3E00D25262 /* CustomWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +75,6 @@
 			children = (
 				867D651C1F5FD42500D25262 /* VMLibDemo.h */,
 				867D65711F60090000D25262 /* VMLib.swift */,
-				867D65731F601A3E00D25262 /* CustomWebViewController.swift */,
 				867D651D1F5FD42500D25262 /* Info.plist */,
 			);
 			path = VMLibDemo;
@@ -205,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867D65741F601A3F00D25262 /* CustomWebViewController.swift in Sources */,
 				867D65721F60090000D25262 /* VMLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

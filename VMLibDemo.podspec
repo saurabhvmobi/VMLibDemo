@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'VMLibDemo'
-s.version          = '0.0.5'
+s.version          = '0.1.0'
 s.summary          = 'By far the most fantastic view I have seen in my entire life. No joke.'
 
 s.description      = <<-DESC
@@ -14,7 +14,5 @@ s.source           = { :git => 'https://github.com/saurabhvmobi/VMLibDemo.git', 
 
 s.ios.deployment_target = '9.0'
 s.source_files = 'VMLibDemo/VMLib.swift'
-
-
 
 end
