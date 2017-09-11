@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		866D92C81F66517100174987 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866D92C71F66517100174987 /* MyViewController.swift */; };
+		866D92CA1F66519100174987 /* MyXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866D92C91F66519100174987 /* MyXib.xib */; };
 		867D65231F5FD42600D25262 /* VMLibDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867D65191F5FD42500D25262 /* VMLibDemo.framework */; };
 		867D65281F5FD42600D25262 /* VMLibDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867D65271F5FD42600D25262 /* VMLibDemoTests.swift */; };
 		867D652A1F5FD42600D25262 /* VMLibDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 867D651C1F5FD42500D25262 /* VMLibDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		866D92C71F66517100174987 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		866D92C91F66519100174987 /* MyXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyXib.xib; sourceTree = "<group>"; };
 		867D65191F5FD42500D25262 /* VMLibDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VMLibDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		867D651C1F5FD42500D25262 /* VMLibDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMLibDemo.h; sourceTree = "<group>"; };
 		867D651D1F5FD42500D25262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 			children = (
 				867D651C1F5FD42500D25262 /* VMLibDemo.h */,
 				867D65711F60090000D25262 /* VMLib.swift */,
+				866D92C71F66517100174987 /* MyViewController.swift */,
+				866D92C91F66519100174987 /* MyXib.xib */,
 				867D651D1F5FD42500D25262 /* Info.plist */,
 			);
 			path = VMLibDemo;
@@ -185,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866D92CA1F66519100174987 /* MyXib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866D92C81F66517100174987 /* MyViewController.swift in Sources */,
 				867D65721F60090000D25262 /* VMLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

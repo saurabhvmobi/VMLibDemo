@@ -22,7 +22,7 @@ public class frameWorkClass{
         
         
         let mainView = UIView()
-        mainView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+       mainView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         mainView.backgroundColor = UIColor.gray
         viewController.view.addSubview(mainView)
         
@@ -31,9 +31,7 @@ public class frameWorkClass{
         subView.backgroundColor = UIColor.white
         mainView.addSubview(subView)
         
-        
-        
-        
+    
         
         let webV    = UIWebView()
         webV.frame  = CGRect(x: 0, y: 0, width: subView.frame.width, height:subView.frame.height)
@@ -41,17 +39,31 @@ public class frameWorkClass{
         //webV.delegate = self
         subView.addSubview(webV)
         subView.clipsToBounds = true
-        
-        
-        
-        
+    
+   
+    let mybutton = UIButton()
+    mybutton.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
+    mybutton.backgroundColor = UIColor.green
+    mybutton.setTitle("Button", for: .normal)
+    mybutton.addTarget(self, action:#selector(self.buttonClicked), for: .touchUpInside)
+    mainView.addSubview(mybutton)
+    
     }
     
+    @objc func buttonClicked() {
+       
+      
+        let navigationController = UINavigationController()
+        let myViewController = MyViewController()
+        navigationController .pushViewController(myViewController, animated: true)
+        
+        
+        
+        
+        print("Button Clicked")
     
     
     
     
-    
-
-
+    }
 }
