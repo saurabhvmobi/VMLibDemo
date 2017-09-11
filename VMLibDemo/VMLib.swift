@@ -10,7 +10,8 @@ import Foundation
 import UIKit
 
 public class frameWorkClass{
-
+    var viewC = UIViewController()
+    
 
     public init() {
     
@@ -53,10 +54,9 @@ public class frameWorkClass{
     @objc func buttonClicked() {
        
       
-        let navigationController = UINavigationController()
-        let myViewController = MyViewController()
-        navigationController .pushViewController(myViewController, animated: true)
         
+        let myViewController = MyViewController()
+        viewC.navigationController?.pushViewController(myViewController, animated: true)
         
         
         
